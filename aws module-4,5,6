@@ -1,0 +1,461 @@
+## module-4,5,6 questions 
+MODULE 4: AWS Storage Services (30 MCQs)
+1. S3 is a:
+A. Block storage
+B. File storage
+C. Object storage
+D. Cache
+2. In S3, each object has:
+A. IP address
+B. Key
+C. Port
+D. Region
+3. S3 bucket names must be:
+A. Private
+B. Globally unique
+C. Region-specific
+D. Numeric only
+4. Which storage is attached to EC2?
+A. S3
+B. EBS
+C. Glacier
+D. Storage Gateway
+5. EBS provides:
+A. Object storage
+B. Block storage
+C. File storage
+D. Tape storage
+6. EBS volumes exist in:
+A. Multiple regions
+B. One AZ
+C. All regions
+D. Edge locations
+7. Glacier is used for:
+A. Frequent access
+B. Archival storage
+C. Compute
+D. Networking
+8. Glacier retrieval time is:
+A. Seconds
+B. Minutes
+C. Hours
+D. Instant
+9.  Storage Gateway connects:
+A. AWS to AWS
+B. On-premises to AWS
+C. User to EC2
+D. S3 to Glacier
+10. Which S3 class is cheapest?
+A. Standard
+B. Intelligent-Tiering
+C. Glacier
+D. Standard-IA
+11. Lifecycle management is used to:
+A. Delete users
+B. Move data automatically
+C. Create instances
+D. Monitor traffic
+12. Which S3 class is for infrequent access?
+A. Standard
+B. IA
+C. Glacier
+D. One Zone-IA
+13. S3 versioning helps in:
+A. Security
+B. Backup
+C. Cost reduction
+D. Networking
+14. Which EBS type is best for high IOPS?
+A. Magnetic
+B. GP2
+C. Provisioned IOPS
+D. Cold HDD
+15. EBS snapshot is stored in:
+A. EC2
+B. S3
+C. Glacier
+D. VPC
+16. Glacier is ideal for:
+A. Databases
+B. Backups
+C. OS
+D. Applications
+17. Storage Gateway supports:
+A. File
+B. Volume
+C. Tape
+D. All
+18. Data lifecycle reduces:
+A. Performance
+B. Security
+C. Cost
+D. Availability
+19. Which storage is persistent?
+A. Instance store
+B. EBS
+C. RAM
+D. Cache
+20. S3 provides:
+A. Low durability
+B. High durability
+C. No durability
+D. Temporary storage
+21. Which service supports hybrid storage?
+A. EBS
+B. Glacier
+C. Storage Gateway
+D. EC2
+22. EBS is billed based on:
+A. Requests
+B. Volume size
+C. Users
+D. Region
+23. S3 access control is via:
+A. Security groups
+B. ACL & bucket policy
+C. Route tables
+D. NACL
+24. Glacier is part of:
+A. EC2
+B. S3
+C. IAM
+D. VPC
+25. Which supports automatic tiering?
+A. S3 Standard
+B. S3 Intelligent-Tiering
+C. Glacier
+D. EBS
+26. EBS volumes can be:
+A. Shared across regions
+B. Attached to one EC2
+C. Used without EC2
+D. Public
+27. Which storage is best for static websites?
+A. EBS
+B. Glacier
+C. S3
+D. Storage Gateway
+28. Which is NOT a storage service?
+A. S3
+B. EBS
+C. EC2
+D. Glacier
+29. Lifecycle policies apply to:
+A. IAM
+B. EC2
+C. S3
+D. VPC
+30. Cold data should be stored in:
+A. S3 Standard
+B. EBS
+C. Glacier
+D. EC2
+
+
+
+MODULE 5: AWS Networking and Content Delivery (30 MCQs)
+1. Amazon VPC allows you to:
+A. Store data
+B. Create isolated networks
+C. Run databases
+D. Manage users
+2. VPC operates at which level?
+A. Application
+B. Network
+C. Physical
+D. Database
+3. Which component divides a VPC into smaller networks?
+A. Route table
+B. Subnet
+C. Gateway
+D. ACL
+4. A public subnet has:
+A. No internet access
+B. Internet Gateway
+C. NAT only
+D. Firewall only
+5. Which component enables internet access for VPC?
+A. NAT Gateway
+B. Internet Gateway
+C. Route 53
+D. ELB
+6. Security Groups act as:
+A. Stateless firewall
+B. Stateful firewall
+C. Router
+D. Load balancer
+7. Network ACLs are:
+A. Stateful
+B. Stateless
+C. Global
+D. User-based
+8. Security Groups work at:
+A. Subnet level
+B. Instance level
+C. Region level
+D. Account level
+9. NACLs work at:
+A. Instance level
+B. Subnet level
+C. User level
+D. Region level
+10. Which allows outbound-only internet access?
+A. Internet Gateway
+B. NAT Gateway
+C. Route 53
+D. CloudFront
+11. Route tables are used to:
+A. Filter traffic
+B. Define traffic paths
+C. Encrypt traffic
+D. Balance load
+12. Amazon Route 53 is a:
+A. CDN
+B. DNS service
+C. Firewall
+D. VPN
+13. Route 53 routing policy NOT supported is:
+A. Simple
+B. Weighted
+C. Geolocation
+D. Static
+14. Which improves fault tolerance in DNS?
+A. Weighted routing
+B. Failover routing
+C. Simple routing
+D. Latency routing
+15. AWS Direct Connect provides:
+A. VPN
+B. Dedicated private connection
+C. Public internet
+D. CDN
+16. Direct Connect improves:
+A. Latency & bandwidth
+B. Storage
+C. Security only
+D. Cost only
+17. Amazon CloudFront is a:
+A. Compute service
+B. CDN
+C. Database
+D. Firewall
+18. CloudFront delivers content from:
+A. Regions
+B. Availability Zones
+C. Edge Locations
+D. Subnets
+19. CDN mainly improves:
+A. Storage
+B. Speed
+C. Security
+D. Billing
+20. Which content suits CloudFront best?
+A. Databases
+B. Static & dynamic content
+C. EC2 instances
+D. IAM users
+21. CloudFront reduces:
+A. Availability
+B. Latency
+C. Durability
+D. Cost always
+22. Which protocol does Route 53 support?
+A. HTTP
+B. DNS
+C. FTP
+D. SMTP
+23. VPC peering allows:
+A. Storage sharing
+B. Network connectivity
+C. User sharing
+D. Region sharing
+24. VPC peering is:	
+A. Transitive
+B. Non-transitive
+C. Automatic
+D. Global
+25. Which service protects against DDoS?
+A. CloudTrail
+B. Shield
+C. Inspector
+D. GuardDuty
+26. Edge locations are used by:
+A. EC2
+B. S3
+C. CloudFront
+D. VPC
+27. Which supports hybrid networking?
+A. Direct Connect
+B. EC2
+C. IAM
+D. S3
+28. Which is faster: VPN or Direct Connect?
+A. VPN
+B. Direct Connect
+C. Same
+D. Depends
+29. Security Groups allow rules based on:
+A. IP only
+B. Port & protocol
+C. Region
+D. AZ
+30. Which is NOT a networking service?
+A. VPC
+B. Route 53
+C. EC2
+D. CloudFront 
+
+
+
+MODULE 6: Security and Identity in AWS (30 MCQs)
+1. IAM is used to manage:
+A. Storage
+B. Compute
+C. Users & permissions
+D. Networking
+2. IAM users represent:
+A. Servers
+B. Applications
+C. Individuals
+D. Regions
+3. IAM groups are used to:
+A. Store data
+B. Organize users
+C. Launch EC2
+D. Create VPC
+4. IAM roles are mainly for:
+A. Humans
+B. AWS services
+C. Databases
+D. Regions
+5. IAM policies define:
+A. Authentication
+B. Authorization
+C. Networking
+D. Storage
+6. IAM policies are written in:
+A. XML
+B. YAML
+C. JSON
+D. TXT
+7. Principle of least privilege means:
+A. Full access
+B. Minimum required access
+C. No access
+D. Temporary access
+8. MFA stands for:
+A. Multi-Factor Authentication
+B. Multi-File Access
+C. Manual Factor Authentication
+D. Managed Firewall Access
+9. MFA improves:
+A. Performance
+B. Security
+C. Cost
+D. Availability
+10. Which is an example of MFA?
+A. Password only
+B. OTP
+C. Username only
+D. Email
+11. AWS KMS is used for:
+A. Key storage & management
+B. User management
+C. Logging
+D. Monitoring
+12. KMS manages:
+A. Access keys
+B. Encryption keys
+C. SSH keys
+D. Passwords
+13. AWS CloudTrail is used for:
+A. Monitoring metrics
+B. Auditing API calls
+C. Load balancing
+D. Networking
+14. CloudTrail logs are stored in:
+A. EC2
+B. S3
+C. VPC
+D. IAM
+15. CloudTrail helps in:
+A. Debugging code
+B. Security auditing
+C. Scaling
+D. Deployment
+16. Which service monitors AWS resources?
+A. CloudTrail
+B. CloudWatch
+C. Inspector
+D. GuardDuty
+17. Root account should:
+A. Be used daily
+B. Be shared
+C. Have MFA
+D. Be deleted
+18. Which is a security best practice?
+A. Use root account always
+B. Disable MFA
+C. Rotate credentials
+D. Share keys
+19. IAM is a:
+A. Regional service
+B. Global service
+C. AZ-based
+D. Edge service
+20. Which provides threat detection?
+A. GuardDuty
+B. CloudTrail
+C. IAM
+D. S3
+21. Which encrypts data at rest?
+A. IAM
+B. KMS
+C. Route 53
+D. EC2
+22. Access keys are used for:
+A. Console login
+B. Programmatic access
+C. MFA
+D. VPN
+23. IAM role credentials are:
+A. Permanent
+B. Temporary
+C. Shared
+D. Static
+24. Which AWS service checks vulnerabilities?
+A. Shield
+B. Inspector
+C. GuardDuty
+D. WAF
+
+25. Which service protects web apps?
+A. Shield
+B. WAF
+C. Inspector
+D. CloudTrail
+26. AWS Shield protects against:
+A. Malware
+B. DDoS
+C. Phishing
+D. Insider threats
+27. IAM policy evaluation follows:
+A. Allow always
+B. Deny always
+C. Explicit deny overrides allow
+D. Random
+28. Best practice for keys:
+A. Hard-code keys
+B. Share keys
+C. Rotate keys
+D. Disable keys
+29. Which service logs configuration changes?
+A. CloudTrail
+B. Config
+C. GuardDuty
+D. Shield
+30. IAM permissions are attached to:
+A. Buckets only
+B. Users, groups, roles
+C. Regions
+D. AZs
